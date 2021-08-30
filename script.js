@@ -49,7 +49,7 @@ button.addEventListener('click', function (e) {
                 result.appendChild(section)
             }
             else if (value >= 18.5 && value <= 24.9) {
-                section.innerText = 'You are Normalweight!'
+                section.innerText = 'You are Normal weight!'
                 section.style.color='#67ff0c'
                 result.appendChild(section)
             }
