@@ -44,22 +44,22 @@ button.addEventListener('click', function (e) {
             section.style.animationIterationCount = 'infinite';
             section.style.textAlign ='center'
             if (value < 18.5) {
-                section.innerText = 'Your underweight!'
+                section.innerText = 'You are underweight!'
                 section.style.color = 'red';
                 result.appendChild(section)
             }
             else if (value >= 18.5 && value <= 24.9) {
-                section.innerText = 'Your Normalweight!'
+                section.innerText = 'You are Normalweight!'
                 section.style.color='#67ff0c'
                 result.appendChild(section)
             }
             else if (value >= 25 && value <= 29.9) {
-                section.innerText = 'Your Overweight!'
+                section.innerText = 'You are Overweight!'
                 section.style.color='rgb(255 217 102)'
                 result.appendChild(section)
             }
             else {
-                section.innerText = 'Your Obese!'
+                section.innerText = 'You are Obese!'
                 section.style.color = 'rgb(255 217 102)';
                 result.appendChild(section)
             }
