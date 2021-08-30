@@ -111,4 +111,13 @@ div{
     h1{
         font-size: 2.4vmax;
     }
+     label{
+        font-size: 2.1vmax;
+    }
+    .button button{
+        font-size: 2vmax;
+    }
+    input{
+        max-width: 60%;
+    }
 }
